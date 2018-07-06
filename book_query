@@ -1,0 +1,5 @@
+import pickle
+
+
+with open('results.txt','rb') as fp:
+    b = pickle.load(fp)
